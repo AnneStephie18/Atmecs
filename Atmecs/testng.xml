@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+ 
+ <test name="ServicePage">
+  <classes>
+<class name="com.atmecs.qa.testscripts.TestServicePage"></class>
+ </classes>
+</test>
+
+ <test name="DigitalLifePage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestDigitalLifePage"></class>
+ </classes>
+</test>
+
+<test name="CloudServicesPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestCloudServicesPage"></class>
+ </classes>
+</test>
+
+<test name="EnterpriseAnalyticsPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage"></class>
+ </classes>
+</test>
+
+<test name="MobileComputingPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestMobileComputingPage"></class>
+ </classes>
+</test>  
+
+<test name="ProductEngineeringPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestProductEngineeringPage"></class>
+ </classes>
+</test>
+
+<test name="QualityEngineeringPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage"></class>
+ </classes>
+</test>
+
+<test name="InfrastructureServicesPage">
+ <classes>
+<class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage"></class>
+ </classes>
+</test>
+</suite> 
