@@ -41,6 +41,8 @@ public class Helper {
 		}
 		return true;
 	}
+	
+	//load property file
 	public Helper() {
 		List<String> propsFiles = Arrays.asList(Constants.PROJECT_CONFIGURATION_PATH,Constants.PROJECT_SERVICE_PATH,Constants.PROJECT_CLOUDSERVICES_PATH,Constants.PROJECT_DIGITALLIFE_PATH,Constants.PROJECT_ENTERPRISEANALYTICS_PATH,Constants.PROJECT_INFRASTRUCTURESERVICES_PATH,Constants.PROJECT_MOBILECOMPUTING_PATH,Constants.PROJECT_PRODUCTENGINEERING_PATH,Constants.PROJECT_QUALITYENGINEERING_PATH);
 
@@ -57,7 +59,7 @@ public class Helper {
 		}
 		}
 		
-	
+	//singleton class
 		 public static Helper getInstance()
 		 { 
 		 if(helper == null)
@@ -65,7 +67,7 @@ public class Helper {
 		 return helper;
 		 }
 
-
+//read value of xpath
 		public String getValue(String key) {
 			return prop.getProperty(key);
 		}

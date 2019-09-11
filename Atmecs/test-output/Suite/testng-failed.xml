@@ -41,112 +41,6 @@
       <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage"/>
     </classes>
   </test> <!-- InfrastructureServicesPage -->
-  <test name="ServicePage(failed)">
-    <classes>
-      <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestProductEngineeringPage -->
-      <class name="com.atmecs.qa.testscripts.TestMobileComputingPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestMobileComputingPage -->
-      <class name="com.atmecs.qa.testscripts.TestServicePage">
-        <methods>
-          <include name="testServicePageClick"/>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestServicePage -->
-      <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage">
-        <methods>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage -->
-      <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage -->
-      <class name="com.atmecs.qa.testscripts.TestDigitalLifePage">
-        <methods>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
-      <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestInfrastructureServicesPage -->
-      <class name="com.atmecs.qa.testscripts.TestCloudServicesPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestCloudServicesPage -->
-    </classes>
-  </test> <!-- ServicePage(failed) -->
-  <test name="DigitalLifePage(failed)">
-    <classes>
-      <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestProductEngineeringPage -->
-      <class name="com.atmecs.qa.testscripts.TestMobileComputingPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestMobileComputingPage -->
-      <class name="com.atmecs.qa.testscripts.TestServicePage">
-        <methods>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestServicePage -->
-      <class name="com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage">
-        <methods>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestEnterpriseAnalyticsPage -->
-      <class name="com.atmecs.qa.testscripts.TestDigitalLifePage">
-        <methods>
-          <include name="testDigitalLifePageClick"/>
-          <include name="preSetup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
-      <class name="com.atmecs.qa.testscripts.TestQualityEngineeringPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestQualityEngineeringPage -->
-      <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestInfrastructureServicesPage -->
-      <class name="com.atmecs.qa.testscripts.TestCloudServicesPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetup"/>
-        </methods>
-      </class> <!-- com.atmecs.qa.testscripts.TestCloudServicesPage -->
-    </classes>
-  </test> <!-- DigitalLifePage(failed) -->
   <test name="InfrastructureServicesPage(failed)">
     <classes>
       <class name="com.atmecs.qa.testscripts.TestProductEngineeringPage">
@@ -187,7 +81,8 @@
       </class> <!-- com.atmecs.qa.testscripts.TestDigitalLifePage -->
       <class name="com.atmecs.qa.testscripts.TestInfrastructureServicesPage">
         <methods>
-          <include name="testInfrastructureServicePageClick"/>
+          <include name="testDataCenterManagementPageClick"/>
+          <include name="testNOCServicesPageClick"/>
           <include name="tearDown"/>
           <include name="preSetup"/>
         </methods>

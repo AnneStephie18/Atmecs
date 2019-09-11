@@ -18,7 +18,7 @@ import com.atmecs.qa.testbase.Base;
  * @author Anne.Sivakumar
  *
  */
-public class CommonUtilityMethods extends Base {
+public class CommonUtilityMethods  {
 	LogReports log=new LogReports();
 	Base base = new Base();
 	
